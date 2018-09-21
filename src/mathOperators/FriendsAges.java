@@ -22,7 +22,7 @@ public class FriendsAges {
 			
 			int combinedAges = friendOne + friendTwo + friendThree;
 		
-		System.out.println("Together, your friends are" + combinedAges + "years old.");
+		System.out.println("Together, your friends are " + combinedAges + " years old.");
 
 		}
 	}
