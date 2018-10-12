@@ -14,20 +14,20 @@ public class Cat {
 	
 	public int birthday(){
 		
-		age = age + 1;
+		age++;
 		System.out.println(age);
 		return age;
 	}
 	public int sleepMore(){
 		
-		sleep = sleep + 1;
+		sleep++;
 		System.out.println(sleep);
 		return sleep;
 		
 	}
 	public int sleepLess(){
 		
-		sleep = sleep - 1;
+		sleep--;
 		System.out.println(sleep);
 		return sleep;
 	}
