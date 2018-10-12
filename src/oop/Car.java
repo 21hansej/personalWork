@@ -1,7 +1,7 @@
 package oop;
 
 //import statements at the top
-
+import java.util.Scanner;
 public class Car {
 
 	//instance fields - data storage
@@ -9,7 +9,7 @@ public class Car {
 	public double tankCapacity;
 	public double fuel;
 	public double odometer;
-	
+	Scanner input = new Scanner(System.in);
 	
 	//constructors - methods for constructing the objects
 	
@@ -29,16 +29,17 @@ public class Car {
 		
 	}
 	
-	public double fillTank(double fullTank){
+	public double fillTank(){
 		
-		fullTank = 20;
-		fuel = fullTank;
+		fuel = 20;
 		System.out.println("The tank is full.");
 		return fuel;
 	}
-	public void drive(double milesDriven){
+	public void drive(){
 		
-		milesDriven = 2;
+		double milesDriven = 0;
+		System.out.println("How many miles have you driven?");
+		milesDriven = input.nextDouble();
 		System.out.println("You have driven " + milesDriven + " miles.");
 		
 	}

@@ -9,10 +9,10 @@ public class CarTest {
 		Car dadsCar = new Car();
 		Car kidsCar = new Car();
 		
-		dadsCar.drive(milesDriven);
+		dadsCar.drive();
 		momsCar.fillTank();
-		kidsCar.drive(milesDriven);
-		dadsCar.fillTank(fullTank);
+		kidsCar.drive();
+		dadsCar.fillTank();
 
 	}
 
