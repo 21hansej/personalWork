@@ -22,6 +22,7 @@ public class LargestInt {
 		if (one > two && one > three){
 			System.out.println("The first number is largest.");
 		}
+		
 		if (two > one && two > three){
 			System.out.println("The second number is largest.");
 		}
