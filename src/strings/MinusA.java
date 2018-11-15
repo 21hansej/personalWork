@@ -11,7 +11,7 @@ public class MinusA {
 		System.out.println("Write a sentence.");
 		String sentence = input.nextLine();
 		for(index = 0; index <= sentence.length() - 1; index++){
-			if (sentence.charAt(index) == 'a' || sentence.charAt(index) == 'a'){
+			if (sentence.charAt(index) == 'a' || sentence.charAt(index) == ' '){
 				
 			}
 			else {

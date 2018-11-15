@@ -9,6 +9,8 @@ public class SocialSecurityNum {
 		String ssc;
 		int index = 0;
 		
+		Essay essay = new Essay();
+		essay.setName();
 		
 
 	}
