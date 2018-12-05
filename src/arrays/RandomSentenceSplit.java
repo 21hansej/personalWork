@@ -14,6 +14,7 @@ public class RandomSentenceSplit {
 		int min = 0;
 		int randomWord;
 		
+		
 		randomWord = generator.nextInt(max - min + 1);
 		System.out.println(words[randomWord]);
 
