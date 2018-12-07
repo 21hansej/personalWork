@@ -9,7 +9,7 @@ public class ListArray {
 		ArrayList<String> names = new ArrayList<String>();
 		names.add("Bob Smith");
 		names.add("Jane Miller");
-		names.add(0, "Billy Jones");
+		names.add(1, "Billy Jones");
 		System.out.println("Enter your name");
 			names.add(input.nextLine());
 		System.out.print(names);
