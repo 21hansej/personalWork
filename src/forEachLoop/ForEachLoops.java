@@ -12,7 +12,7 @@ public class ForEachLoops {
 		int[] wages = new int[employees];
 		
 		for(int i : wages){
-			System.out.println("What is the emplyee's wage?");
+			System.out.println("What is the employee's wage?");
 			int wage = input.nextInt();
 			if(wage > highest){
 				highest = wage;
