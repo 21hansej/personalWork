@@ -14,7 +14,7 @@ public class ForEachCircles {
 			radii.add(new Circle(radius));
 			
 		}
-		System.out.println(radii);
+		
 
 	}
 
