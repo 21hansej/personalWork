@@ -15,7 +15,7 @@ public class PileOJunk {
 			randomNum = min + generator.nextInt(max - min + 1);
 		}
 		
-		public static int idNumber(int one, int two){
+		public static int sumNum(int one, int two){
 			int sum = one + two;
 			return sum;
 		}
