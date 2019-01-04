@@ -1,6 +1,8 @@
 package forEachLoop;
 import java.util.Scanner;
+
 import arrays.Circle;
+
 import java.util.ArrayList;
 public class ForEachCircles {
 

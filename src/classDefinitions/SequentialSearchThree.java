@@ -3,6 +3,7 @@ package classDefinitions;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+
 import arrays.Rectangle;
 
 public class SequentialSearchThree {
