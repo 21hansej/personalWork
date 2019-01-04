@@ -18,7 +18,11 @@ public class Greeter {
 	
 	//default constructor
 	
-	
+	public Greeter(int xAge){
+	//Statements to initialize the state of the object
+		age = xAge;
+		
+	}
 	
 	public Greeter(){
 	//Statements to initialize the state of the object
